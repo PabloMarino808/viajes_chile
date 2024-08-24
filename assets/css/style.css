@@ -56,6 +56,17 @@ i {
     }       
 }
 
+.quiencard{
+    width: 390px;
+}
+
+.destacard{
+    width: 300px;
+}
+.destacard img{
+    height: 170px;
+}
+
 .divider{
     opacity: 100%;
 }
