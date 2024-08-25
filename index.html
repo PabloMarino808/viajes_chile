@@ -8,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/viajes.svg" />
     <title>Viajes Chile</title>
 </head>
 <body>
 
   <header>
-    <!-- navbar -->
+    <!-- Navbar -->
     <nav id="barranav" class="navbar navbar-expand-lg fixed-top p-0" data-bs-theme="dark">
       <div class="container">
           <img id="viajes-chile-logo" src="assets/img/viajes.svg" alt="viajes chile logo">
@@ -58,43 +59,42 @@
     </div>
   </header> 
 
-    <!-- Quienes somos cards -->        
-    <section class="container my-5" id="quienessomos">
-      <div class="row justify-content-evenly">
-        <div class="text-center">
-          <h2 class="my-4 text-white">¿QUIÉNES SOMOS?</h2>
+  <!-- Quienes somos cards -->        
+  <section class="container my-5 pt-5 d-none d-sm-block" id="quienessomos">
+    <div class="row justify-content-evenly">
+      <div class="text-center">
+        <h2 class="my-4 text-white">¿QUIÉNES SOMOS?</h2>
+      </div>
+      <hr class="col-12">
+      <div class="card rel-card quiencard bg-oscuro col-10 col-sm-5 col-md-3 p-0 border-0 m-4">
+        <div class="card-header text-center bg-cyan text-white p-1">
+          <i class="fa-solid fa-plane"></i>   
         </div>
-        <hr class="col-12">
-        <div class="card rel-card quiencard col-10 col-sm-5 col-md-3 p-0 border-0 m-4">
-          <div class="card-header text-center bg-cyan text-white p-1">
-            <i class="fa-solid fa-plane"></i>   
-          </div>
-          <div class="card-body bg-oscuro">
-            <p class="card-text contenido-tarjeta">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quibusdam a autem laudantium, quam culpa. Atque, possimus? Perspiciatis sint veritatis dolores officia maxime, mollitia architecto tempora saepe praesentium rem ullam.</p>
-          </div>
-        </div> 
-        <div class="card rel-card quiencard col-10 col-sm-5 col-md-3 p-0 border-0 m-4">           
-          <div class="card-body bg-oscuro">
-            <p class="card-text contenido-tarjeta">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit unde, nihil neque quae magnam ducimus ex adipisci eveniet quas odit. Ipsam iusto labore aspernatur fuga ab in vel est architecto.</p>
-          </div>
-          <div class="card-footer text-center bg-cyan text-white p-1">
-            <i class="fa-solid fa-mountain"></i>
-          </div>
-        </div> 
-        <div class="card rel-card quiencard col-10 col-sm-5 col-md-3 p-0 border-0 m-4">
-          <div class="card-header text-center bg-cyan text-white p-1">
-            <i class="fa-solid fa-map-location"></i>
-          </div>
-          <div class="card-body bg-oscuro">
-            <p class="card-text contenido-tarjeta">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, autem numquam repellendus est distinctio illo iste molestiae exercitationem mollitia quaerat explicabo tempore doloribus! Aperiam sit quidem porro quis nesciunt tempore.</p>
-          </div>
-        </div>  
+        <div class="card-body quienContent">
+          <p class="card-text text-white">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quibusdam a autem laudantium, quam culpa. Atque, possimus? Perspiciatis sint veritatis dolores officia maxime, mollitia architecto tempora saepe praesentium rem ullam.</p>
+        </div>
+      </div> 
+      <div class="card rel-card quiencard bg-oscuro col-10 col-sm-5 col-md-3 p-0 border-0 m-4">           
+        <div class="card-body quienContent">
+          <p class="card-text text-white">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit unde, nihil neque quae magnam ducimus ex adipisci eveniet quas odit. Ipsam iusto labore aspernatur fuga ab in vel est architecto.</p>
+        </div>
+        <div class="card-footer text-center bg-cyan text-white p-1">
+          <i class="fa-solid fa-mountain"></i>
+        </div>
+      </div> 
+      <div class="card rel-card quiencard bg-oscuro col-10 col-sm-5 col-md-3 p-0 border-0 m-4">
+        <div class="card-header text-center bg-cyan text-white p-1">
+          <i class="fa-solid fa-map-location"></i>
+        </div>
+        <div class="card-body quienContent">
+          <p class="card-text text-white">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, autem numquam repellendus est distinctio illo iste molestiae exercitationem mollitia quaerat explicabo tempore doloribus! Aperiam sit quidem porro quis nesciunt tempore.</p>
+        </div>
       </div>  
-    </section>
+    </div>  
+  </section>
 
-
-   <!-- Destacados cards -->        
-   <section class="container my-5" id="destacados">
+  <!-- Destacados cards -->        
+  <section class="container my-5 pt-5" id="destacados">
     <div class="row justify-content-evenly">
       <div class="text-center">
         <h2 class="my-4 text-white">DESTACADOS</h2>
@@ -135,51 +135,58 @@
     </div>      
   </section>
 
-    <!-- Contacto cards -->
-    <section class="text-white my-5" id="contacto">
-      <div class="container justify-content-center my-2">
-        <div class="text-center">
-          <h2 class="my-4 text-white">CONTACTO</h2>
-          <hr class="col-12">
+  <!-- Contacto cards -->
+  <section class="text-white my-5 pt-5" id="contacto">
+    <div class="container justify-content-center my-2">
+      <div class="text-center">
+        <h2 class="my-4 text-white">CONTACTO</h2>
+        <hr class="col-12">
+      </div>
+      <form id="formularioContacto">       
+        <div class="form-group my-4">
+          <label for="formNameInput"><h5>Nombre</h5></label>
+          <input type="text" class="form-control" id="formNameInput" placeholder="Ingrese su nombre">
         </div>
-        <form>       
-          <div class="form-group my-4">
-            <label for="formNameInput"><h5>Nombre</h5></label>
-            <input type="text" class="form-control" id="formNameInput" placeholder="Ingrese su nombre">
-          </div>
-          <div class="form-group my-4">
-            <label for="formTitleInput"><h5>Asunto</h5></label>
-            <input type="text" class="form-control" id="formTitleInput" placeholder="Ingrese asunto">
-          </div>
-          
-          <div class="form-group my-4">
-            <label for="formContentInput"><h5>Mensaje</h5></label>
-            <textarea class="form-control" id="formContentInput" placeholder="Ingrese mensaje" rows="12"></textarea>
-          </div>
-        <button type="submit" class="btn text-white bg-cyan">Enviar</button>
-        </form>
-      </div>
-    </section>
+        <div class="form-group my-4">
+          <label for="formTitleInput"><h5>Asunto</h5></label>
+          <input type="text" class="form-control" id="formTitleInput" placeholder="Ingrese asunto">
+        </div>
+        
+        <div class="form-group my-4">
+          <label for="formContentInput"><h5>Mensaje</h5></label>
+          <textarea class="form-control" id="formContentInput" placeholder="Ingrese mensaje" rows="12"></textarea>
+        </div>
+      <button id="btnContacto" type="submit" class="btn text-white bg-cyan">Enviar</button>
+      </form>
+    </div>
+  </section>
 
-    <!-- Footer RRSS -->
-    <footer class="bg-cyan text-white p-5 d-md-block">
-      <div class="container d-flex justify-content-between px-5">
-          <h2 class="fw-light">VIAJES CHILE</h2>
-          <div class="d-flex gap-4">
+  <!-- Footer RRSS -->
+  <footer class="bg-cyan text-white p-5 d-md-block">
+    <div class="container d-flex justify-content-between px-5">
+        <h2 class="fw-light">VIAJES CHILE</h2>
+        <div class="d-flex gap-4">
+          <a class="rrss" href="https://github.com/">
             <i class="fa-brands fa-square-github fa-3x"></i>
+          </a>
+          <a class="rrss" href="https://www.linkedin.com/">
             <i class="fa-brands fa-linkedin fa-3x"></i>
+          </a>
+          <a class="rrss" href="https://x.com/home">            
             <i class="fa-brands fa-square-x-twitter fa-3x"></i>
+          </a>
+          <a class="rrss" href="https://www.facebook.com/">
             <i class="fa-brands fa-square-facebook fa-3x"></i>
-          </div>
-      </div>
+          </a>
+        </div>
+    </div>
   </footer>
-
-
-
+    <!-- Integración de Bootstrap, Jquery, Font Awesome, Popper y Javascript al proyecto -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7324ef5bd2.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-</body>
+
+  </body>
 </html>

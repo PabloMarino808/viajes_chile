@@ -15,7 +15,7 @@ body {
 }
 
 hr {
-    color: darkgray;
+    color: #0DCAF0;
 }
 
 h1 {
@@ -42,18 +42,12 @@ i {
 
 #barranav {
     transition: all 0.7s;
+    height: 70px;
 }
 
 #viajes-chile-logo{
     width: 2.5rem;
     margin: 20px;
-}
-
-@media only screen and (max-width: 992px) {
-    .wrapper{
-        text-align: center;
-        width: 100%;
-    }       
 }
 
 .quiencard{
@@ -67,20 +61,14 @@ i {
     height: 170px;
 }
 
-.divider{
-    opacity: 100%;
-}
-
-.wrapper div {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+.rrss{
+    text-decoration: none;
 }
 
 p{
     font-size: 20px;
 }
 
-.text-white, .contenido-tarjeta{
+.text-white, .rrss{
     color: white;
 }
