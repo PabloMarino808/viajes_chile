@@ -61,7 +61,7 @@ i {
     height: 170px;
 }
 
-.rrss{
+.rrss i{
     text-decoration: none;
 }
 
@@ -71,4 +71,8 @@ p{
 
 .text-white, .rrss{
     color: white;
+}
+
+.rrss i{
+    font-size: 3rem;
 }
